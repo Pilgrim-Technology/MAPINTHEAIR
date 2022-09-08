@@ -1,0 +1,10 @@
+
+        #header {
+          background-image : url("/lizmap/index.php/view/media/themeImage?key=headerBackgroundImage");
+          background-repeat: no-repeat;
+          background-position:  left center;
+        }
+        #title {
+          background: none;
+        }
+        

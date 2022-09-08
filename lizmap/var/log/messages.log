@@ -1,0 +1,10 @@
+2022-08-19 14:22:31	127.0.0.1	default	Error while inserting a new line in log_detail :Erreur dans la requête (attempt to write a readonly database (INSERT INTO log_detail (
+log_key,log_timestamp,log_user,log_content,log_repository,log_project,log_ip
+) VALUES (
+'login', datetime('now', 'localtime'), 'admin', NULL, NULL, NULL, NULL
+)))
+2022-08-19 14:22:31	127.0.0.1	default	Error while increasing log counter:Erreur dans la requête (attempt to write a readonly database (INSERT INTO log_counter (
+key,counter,repository,project
+) VALUES (
+'login', 1, NULL, NULL
+)))

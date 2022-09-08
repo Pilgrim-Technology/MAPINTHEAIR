@@ -1,0 +1,253 @@
+a:4:{s:8:"qgsmtime";i:1660924453;s:11:"qgscfgmtime";i:1660924468;s:14:"format_version";i:9;s:4:"data";a:3:{s:4:"code";i:200;s:4:"mime";s:23:"text/xml; charset=utf-8";s:4:"data";s:12816:"<?xml version="1.0" encoding="utf-8"?>
+<WMS_Capabilities xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" xmlns:qgs="http://www.qgis.org/wms" xmlns="http://www.opengis.net/wms" xmlns:sld="http://www.opengis.net/sld" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/sld_capabilities.xsd http://www.qgis.org/wms http://127.0.0.1/cgi-bin/qgis_mapserv.fcgi?MAP=%2Fvar%2Fwww%2FlizMAP-web-client-3.5.5%2FlizMAP%2Finstall%2Fqgis%2Fworld%2Fworld.qgs&amp;SERVICE=WMS&amp;REQUEST=GetSchemaExtension">
+ <Service>
+  <Name>WMS</Name>
+  <Title>QGIS Server Demo</Title>
+  <Abstract><![CDATA[This is a simple World map that showcases QGIS Server capabilities.]]></Abstract>
+  <KeywordList>
+   <Keyword vocabulary="ISO">infoMapAccessService</Keyword>
+   <Keyword>QGIS Server World</Keyword>
+  </KeywordList>
+  <OnlineResource xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://127.0.0.1/cgi-bin/qgis_mapserv.fcgi?MAP=%2Fvar%2Fwww%2FlizMAP-web-client-3.5.5%2FlizMAP%2Finstall%2Fqgis%2Fworld%2Fworld.qgs"/>
+  <ContactInformation>
+   <ContactPersonPrimary>
+    <ContactPerson>Tudor Bărăscu</ContactPerson>
+    <ContactOrganization>qgis.org</ContactOrganization>
+   </ContactPersonPrimary>
+   <ContactElectronicMailAddress>tudor.barascu@qtibia.ro</ContactElectronicMailAddress>
+  </ContactInformation>
+  <Fees>conditions unknown</Fees>
+  <AccessConstraints>None</AccessConstraints>
+ </Service>
+ <Capability>
+  <Request>
+   <GetCapabilities>
+    <Format>text/xml</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://127.0.0.1/cgi-bin/qgis_mapserv.fcgi?MAP=%2Fvar%2Fwww%2FlizMAP-web-client-3.5.5%2FlizMAP%2Finstall%2Fqgis%2Fworld%2Fworld.qgs&amp;"/>
+      </Get>
+     </HTTP>
+    </DCPType>
+   </GetCapabilities>
+   <GetMap>
+    <Format>image/jpeg</Format>
+    <Format>image/png</Format>
+    <Format>image/png; mode=16bit</Format>
+    <Format>image/png; mode=8bit</Format>
+    <Format>image/png; mode=1bit</Format>
+    <Format>application/dxf</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://127.0.0.1/cgi-bin/qgis_mapserv.fcgi?MAP=%2Fvar%2Fwww%2FlizMAP-web-client-3.5.5%2FlizMAP%2Finstall%2Fqgis%2Fworld%2Fworld.qgs&amp;"/>
+      </Get>
+     </HTTP>
+    </DCPType>
+   </GetMap>
+   <GetFeatureInfo>
+    <Format>text/plain</Format>
+    <Format>text/html</Format>
+    <Format>text/xml</Format>
+    <Format>application/vnd.ogc.gml</Format>
+    <Format>application/vnd.ogc.gml/3.1.1</Format>
+    <Format>application/json</Format>
+    <Format>application/geo+json</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://127.0.0.1/cgi-bin/qgis_mapserv.fcgi?MAP=%2Fvar%2Fwww%2FlizMAP-web-client-3.5.5%2FlizMAP%2Finstall%2Fqgis%2Fworld%2Fworld.qgs&amp;"/>
+      </Get>
+     </HTTP>
+    </DCPType>
+   </GetFeatureInfo>
+   <sld:GetLegendGraphic>
+    <Format>image/jpeg</Format>
+    <Format>image/png</Format>
+    <Format>application/json</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://127.0.0.1/cgi-bin/qgis_mapserv.fcgi?MAP=%2Fvar%2Fwww%2FlizMAP-web-client-3.5.5%2FlizMAP%2Finstall%2Fqgis%2Fworld%2Fworld.qgs&amp;"/>
+      </Get>
+     </HTTP>
+    </DCPType>
+   </sld:GetLegendGraphic>
+   <sld:DescribeLayer>
+    <Format>text/xml</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://127.0.0.1/cgi-bin/qgis_mapserv.fcgi?MAP=%2Fvar%2Fwww%2FlizMAP-web-client-3.5.5%2FlizMAP%2Finstall%2Fqgis%2Fworld%2Fworld.qgs&amp;"/>
+      </Get>
+     </HTTP>
+    </DCPType>
+   </sld:DescribeLayer>
+   <qgs:GetStyles>
+    <Format>text/xml</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://127.0.0.1/cgi-bin/qgis_mapserv.fcgi?MAP=%2Fvar%2Fwww%2FlizMAP-web-client-3.5.5%2FlizMAP%2Finstall%2Fqgis%2Fworld%2Fworld.qgs&amp;"/>
+      </Get>
+     </HTTP>
+    </DCPType>
+   </qgs:GetStyles>
+  </Request>
+  <Exception>
+   <Format>XML</Format>
+  </Exception>
+  <sld:UserDefinedSymbolization InlineFeature="0" UserStyle="1" RemoteWCS="0" RemoteWFS="0" SupportSLD="1" UserLayer="0"/>
+  <Layer queryable="1">
+   <Title>QGIS Server Demo</Title>
+   <Abstract><![CDATA[This is a simple World map that showcases QGIS Server capabilities.]]></Abstract>
+   <KeywordList>
+    <Keyword vocabulary="ISO">infoMapAccessService</Keyword>
+    <Keyword>QGIS Server World</Keyword>
+   </KeywordList>
+   <CRS>CRS:84</CRS>
+   <CRS>EPSG:3857</CRS>
+   <CRS>EPSG:900913</CRS>
+   <CRS>EPSG:4326</CRS>
+   <EX_GeographicBoundingBox>
+    <westBoundLongitude>-189</westBoundLongitude>
+    <eastBoundLongitude>189</eastBoundLongitude>
+    <southBoundLatitude>-123</southBoundLatitude>
+    <northBoundLatitude>118</northBoundLatitude>
+   </EX_GeographicBoundingBox>
+   <BoundingBox maxx="118" miny="-189" minx="-123" CRS="EPSG:4326" maxy="189"/>
+   <BoundingBox maxx="19960441.004" miny="-19293806.199" minx="-19960441.004" CRS="EPSG:900913" maxy="30772816.154"/>
+   <BoundingBox maxx="19970716.649" miny="-44927335.428" minx="-19970716.649" CRS="EPSG:3857" maxy="44927335.428"/>
+   <Layer queryable="1">
+    <Name>airports</Name>
+    <Title>airports</Title>
+    <CRS>CRS:84</CRS>
+    <CRS>EPSG:3857</CRS>
+    <CRS>EPSG:900913</CRS>
+    <CRS>EPSG:4326</CRS>
+    <EX_GeographicBoundingBox>
+     <westBoundLongitude>-175.135635</westBoundLongitude>
+     <eastBoundLongitude>179.195443</eastBoundLongitude>
+     <southBoundLatitude>-53.781475</southBoundLatitude>
+     <northBoundLatitude>78.246717</northBoundLatitude>
+    </EX_GeographicBoundingBox>
+    <BoundingBox maxx="78.246717" miny="-175.135635" minx="-53.781475" CRS="EPSG:4326" maxy="179.195443"/>
+    <BoundingBox maxx="19947945.359" miny="-7128878.351" minx="-19496009.708" CRS="EPSG:900913" maxy="14502137.594"/>
+    <BoundingBox maxx="19947945.359" miny="-7128878.351" minx="-19496009.708" CRS="EPSG:3857" maxy="14502137.594"/>
+    <Style>
+     <Name>default</Name>
+     <Title>default</Title>
+     <LegendURL>
+      <Format>image/png</Format>
+      <OnlineResource xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://127.0.0.1/cgi-bin/qgis_mapserv.fcgi?MAP=%2Fvar%2Fwww%2FlizMAP-web-client-3.5.5%2FlizMAP%2Finstall%2Fqgis%2Fworld%2Fworld.qgs&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=airports&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0"/>
+     </LegendURL>
+    </Style>
+    <MinScaleDenominator>1</MinScaleDenominator>
+    <MaxScaleDenominator>3.66192e+06</MaxScaleDenominator>
+   </Layer>
+   <Layer queryable="1">
+    <Name>places</Name>
+    <Title>places</Title>
+    <CRS>CRS:84</CRS>
+    <CRS>EPSG:3857</CRS>
+    <CRS>EPSG:900913</CRS>
+    <CRS>EPSG:4326</CRS>
+    <EX_GeographicBoundingBox>
+     <westBoundLongitude>-175.220565</westBoundLongitude>
+     <eastBoundLongitude>179.216648</eastBoundLongitude>
+     <southBoundLatitude>-41.299974</southBoundLatitude>
+     <northBoundLatitude>64.150024</northBoundLatitude>
+    </EX_GeographicBoundingBox>
+    <BoundingBox maxx="64.150024" miny="-175.220565" minx="-41.299974" CRS="EPSG:4326" maxy="179.216648"/>
+    <BoundingBox maxx="19950305.897" miny="-5056688.948" minx="-19505464.015" CRS="EPSG:900913" maxy="9387963.682"/>
+    <BoundingBox maxx="19950305.897" miny="-5056688.948" minx="-19505464.015" CRS="EPSG:3857" maxy="9387963.682"/>
+    <Style>
+     <Name>default</Name>
+     <Title>default</Title>
+     <LegendURL>
+      <Format>image/png</Format>
+      <OnlineResource xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://127.0.0.1/cgi-bin/qgis_mapserv.fcgi?MAP=%2Fvar%2Fwww%2FlizMAP-web-client-3.5.5%2FlizMAP%2Finstall%2Fqgis%2Fworld%2Fworld.qgs&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=places&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0"/>
+     </LegendURL>
+    </Style>
+   </Layer>
+   <Layer queryable="1">
+    <Name>countries</Name>
+    <Title>countries</Title>
+    <CRS>CRS:84</CRS>
+    <CRS>EPSG:3857</CRS>
+    <CRS>EPSG:900913</CRS>
+    <CRS>EPSG:4326</CRS>
+    <EX_GeographicBoundingBox>
+     <westBoundLongitude>-180</westBoundLongitude>
+     <eastBoundLongitude>180</eastBoundLongitude>
+     <southBoundLatitude>-90</southBoundLatitude>
+     <northBoundLatitude>83.623597</northBoundLatitude>
+    </EX_GeographicBoundingBox>
+    <BoundingBox maxx="83.623597" miny="-180" minx="-90" CRS="EPSG:4326" maxy="180"/>
+    <BoundingBox maxx="20037508.343" miny="-242528680.944" minx="-20037508.343" CRS="EPSG:900913" maxy="18418382.138"/>
+    <BoundingBox maxx="20037508.343" miny="-44927335.428" minx="-20037508.343" CRS="EPSG:3857" maxy="18418382.138"/>
+    <Style>
+     <Name>classified_by_name</Name>
+     <Title>classified_by_name</Title>
+     <LegendURL>
+      <Format>image/png</Format>
+      <OnlineResource xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://127.0.0.1/cgi-bin/qgis_mapserv.fcgi?MAP=%2Fvar%2Fwww%2FlizMAP-web-client-3.5.5%2FlizMAP%2Finstall%2Fqgis%2Fworld%2Fworld.qgs&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=countries&amp;FORMAT=image/png&amp;STYLE=classified_by_name&amp;SLD_VERSION=1.1.0"/>
+     </LegendURL>
+    </Style>
+    <Style>
+     <Name>classified_by_population</Name>
+     <Title>classified_by_population</Title>
+     <LegendURL>
+      <Format>image/png</Format>
+      <OnlineResource xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://127.0.0.1/cgi-bin/qgis_mapserv.fcgi?MAP=%2Fvar%2Fwww%2FlizMAP-web-client-3.5.5%2FlizMAP%2Finstall%2Fqgis%2Fworld%2Fworld.qgs&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=countries&amp;FORMAT=image/png&amp;STYLE=classified_by_population&amp;SLD_VERSION=1.1.0"/>
+     </LegendURL>
+    </Style>
+   </Layer>
+   <Layer queryable="1">
+    <Name>countries_shapeburst</Name>
+    <Title>countries_shapeburst</Title>
+    <CRS>CRS:84</CRS>
+    <CRS>EPSG:3857</CRS>
+    <CRS>EPSG:900913</CRS>
+    <CRS>EPSG:4326</CRS>
+    <EX_GeographicBoundingBox>
+     <westBoundLongitude>-180</westBoundLongitude>
+     <eastBoundLongitude>180</eastBoundLongitude>
+     <southBoundLatitude>-90</southBoundLatitude>
+     <northBoundLatitude>83.623597</northBoundLatitude>
+    </EX_GeographicBoundingBox>
+    <BoundingBox maxx="83.623597" miny="-180" minx="-90" CRS="EPSG:4326" maxy="180"/>
+    <BoundingBox maxx="20037508.343" miny="-242528680.944" minx="-20037508.343" CRS="EPSG:900913" maxy="18418382.138"/>
+    <BoundingBox maxx="20037508.343" miny="-44927335.428" minx="-20037508.343" CRS="EPSG:3857" maxy="18418382.138"/>
+    <Style>
+     <Name>blue</Name>
+     <Title>blue</Title>
+     <LegendURL>
+      <Format>image/png</Format>
+      <OnlineResource xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://127.0.0.1/cgi-bin/qgis_mapserv.fcgi?MAP=%2Fvar%2Fwww%2FlizMAP-web-client-3.5.5%2FlizMAP%2Finstall%2Fqgis%2Fworld%2Fworld.qgs&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=countries_shapeburst&amp;FORMAT=image/png&amp;STYLE=blue&amp;SLD_VERSION=1.1.0"/>
+     </LegendURL>
+    </Style>
+    <Style>
+     <Name>default</Name>
+     <Title>default</Title>
+     <LegendURL>
+      <Format>image/png</Format>
+      <OnlineResource xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://127.0.0.1/cgi-bin/qgis_mapserv.fcgi?MAP=%2Fvar%2Fwww%2FlizMAP-web-client-3.5.5%2FlizMAP%2Finstall%2Fqgis%2Fworld%2Fworld.qgs&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=countries_shapeburst&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0"/>
+     </LegendURL>
+    </Style>
+    <Style>
+     <Name>green</Name>
+     <Title>green</Title>
+     <LegendURL>
+      <Format>image/png</Format>
+      <OnlineResource xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://127.0.0.1/cgi-bin/qgis_mapserv.fcgi?MAP=%2Fvar%2Fwww%2FlizMAP-web-client-3.5.5%2FlizMAP%2Finstall%2Fqgis%2Fworld%2Fworld.qgs&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=countries_shapeburst&amp;FORMAT=image/png&amp;STYLE=green&amp;SLD_VERSION=1.1.0"/>
+     </LegendURL>
+    </Style>
+    <MinScaleDenominator>1</MinScaleDenominator>
+    <MaxScaleDenominator>2.5e+08</MaxScaleDenominator>
+   </Layer>
+  </Layer>
+ </Capability>
+</WMS_Capabilities>
+";}}
